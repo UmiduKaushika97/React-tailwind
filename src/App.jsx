@@ -12,7 +12,7 @@ function App() {
 // </div>
   //  <div className="bg-slate-500 min-h-screen text-slate-900"></div>
 
-  <div className="flex items-center justify-center h-12 bg-gray-900">
+  <div className="flex items-center justify-center h-12 bg-gray-900 text-white">
     <div>Logo</div>
     <div>
       <span>Home</span>
