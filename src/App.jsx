@@ -9,6 +9,8 @@ function App() {
     <p className="text-4xl font-bold text-center text-rose-500">Hello world</p>
     <p>get</p>
    </div>
+
+   <div className="bg-slate-500 min-h-screen"></div>
    </div>
   )
 }
