@@ -19,6 +19,7 @@ function App() {
       <span>About</span>
       <span>Contact</span>
       <h1>yfyu</h1>
+      <h2>web</h2>
     </div>
   </div>
    
