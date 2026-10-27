@@ -24,7 +24,7 @@ function App() {
   </div>
 
   <div className="grid grid-cols-2">
-    <div className="bg-slate-500 p-4">Feature One</div>
+    <div className="bg-slate-500 p-4 rounded">Feature One</div>
     <div>Feature Two</div>
     <div>Feature Three</div>
     <div>Feature Four</div>
