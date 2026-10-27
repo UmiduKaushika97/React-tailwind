@@ -11,7 +11,7 @@ function App() {
 //    </div>
 // </div>
   //  <div className="bg-slate-500 min-h-screen text-slate-900"></div>
-
+<>
   <div className="flex items-center justify-center h-12 bg-gray-900 text-white">
     <div>Logo</div>
     <div>
@@ -22,7 +22,16 @@ function App() {
       <h2>web</h2>
     </div>
   </div>
-   
+
+  <div className="grid grid-cols-2">
+    <div>Feature One</div>
+    <div>Feature Two</div>
+    <div>Feature Three</div>
+    <div>Feature Four</div>
+    <div>Feature Five</div>
+    <div>Feature Six</div>
+  </div>
+   </>
   )
 }
 
