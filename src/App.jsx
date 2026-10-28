@@ -23,7 +23,7 @@ function App() {
     </div>
   </div>
 
-  <div className="grid grid-cols-1 sm:grid-cols-2 text-white p-6 gap-6">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-white p-6 gap-6 text-center font-semibold">
     <div className="bg-slate-500 p-4 rounded-sm">Feature One</div>
     <div className="bg-slate-500 p-4 rounded-sm">Feature Two</div>
     <div className="bg-slate-500 p-4 rounded-sm">Feature Three</div>
