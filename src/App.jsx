@@ -23,13 +23,13 @@ function App() {
     </div>
   </div>
 
-  <div className="grid grid-cols-2">
-    <div className="bg-slate-500 p-4 rounded">Feature One</div>
-    <div>Feature Two</div>
-    <div>Feature Three</div>
-    <div>Feature Four</div>
-    <div>Feature Five</div>
-    <div>Feature Six</div>
+  <div className="grid grid-cols-2 text-white p-6 gap-6">
+    <div className="bg-slate-500 p-4 rounded-sm">Feature One</div>
+    <div className="bg-slate-500 p-4 rounded-sm">Feature Two</div>
+    <div className="bg-slate-500 p-4 rounded-sm">Feature Three</div>
+    <div className="bg-slate-500 p-4 rounded-sm">Feature Four</div>
+    <div className="bg-slate-500 p-4 rounded-sm">Feature Five</div>
+    <div className="bg-slate-500 p-4 rounded-sm">Feature Six</div>
   </div>
    </>
   )
