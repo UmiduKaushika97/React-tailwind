@@ -1,7 +1,8 @@
+import { useState } from "react"
 
 
 function App() {
-  
+  const [open, setOpen] = useState(false);
 
   return (
 //     <div className="p-5">
@@ -14,17 +15,29 @@ function App() {
 <>
   <div className="flex items-center justify-center h-12 bg-gray-900 text-white">
     <div>Logo</div>
-    <div>
+
+    {/* desktop nav */}
+    <div className="hidden sm:flex gap-2">
       <span>Home</span>
       <span>About</span>
       <span>Contact</span>
-      <h1>yfyu</h1>
-      <h2>web</h2>
+      {/* <h1>yfyu</h1>
+      <h2>web</h2> */}
     </div>
+
+    <button className="text-xl cursor-pointer sm:hidden" onClick={()=> setOpen(!open)}>a</button>
   </div>
 
+  {/* mobile nav */}
+
+ {open && ( <div className="flex flex-col items-center gap-2 bg-slate-900 text-white p-4 sm:hidden">
+      <span>Home</span>
+      <span>About</span>
+      <span>Contact</span>
+    </div> )}
+
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-white p-6 gap-6 text-center font-semibold text-2xl sm:text-lg">
-    <div className="bg-slate-500 p-4 rounded-sm hover:bg-slate-600">Feature One</div>
+    <div className="bg-slate-500 p-4 rounded-sm hover:bg-slate-600 hover:scale-105 transition-all duration-200">Feature One</div>
     <div className="bg-slate-500 p-4 rounded-sm hover:bg-slate-600">Feature Two</div>
     <div className="bg-slate-500 p-4 rounded-sm">Feature Three</div>
     <div className="bg-slate-500 p-4 rounded-sm">Feature Four</div>
